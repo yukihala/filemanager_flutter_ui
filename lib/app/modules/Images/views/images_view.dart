@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:get/get.dart';
+import 'package:rive/rive.dart';
 
 import '../controllers/images_controller.dart';
 
@@ -17,9 +18,9 @@ class ImagesView extends GetView<ImagesController> {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(
-            height: Get.context.mediaQueryPadding.top,
-          ),
+          // SizedBox(
+          //   height: Get.context.mediaQueryPadding.top,
+          // ),
           Expanded(
             child: Container(
               width: double.infinity,
