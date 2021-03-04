@@ -57,6 +57,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+  day:
+    dependency: "direct main"
+    description:
+      name: day
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.4"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.2.6"
   fake_async:
     dependency: transitive
     description:
@@ -64,11 +78,25 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.0-nullsafety.1"
+  fl_chart:
+    dependency: "direct main"
+    description:
+      name: fl_chart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.12.3"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_group_sliver:
+    dependency: "direct main"
+    description:
+      name: flutter_group_sliver
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2"
   flutter_staggered_grid_view:
     dependency: "direct main"
     description:
@@ -137,6 +165,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.4"
+  pedantic:
+    dependency: transitive
+    description:
+      name: pedantic
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.9.2"
   petitparser:
     dependency: transitive
     description:
